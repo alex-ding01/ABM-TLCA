@@ -1,0 +1,110 @@
+
+##################################### key parameters for ABM ############################
+# number of running times. to average farmers' decisions. 
+nr: 10
+
+# number of time steps
+nt: 20
+
+# fraction of current profit at which the CDF is zero and one, and number of points to generate
+fmin: 1.1
+fmax: 2.5
+# list of lists for switching averse, tolerant parameters, and neutral parameters (alpha, beta)
+switch_params_size: [[2, 0.5], [0.5, 4.0], [2.0, 2.0]] # economic size & familiarity affect behavior
+# https://distribution-explorer.github.io/continuous/beta.html
+
+# define the sucessful rate of establishing miscanthus for energy crops
+success_rate: 0.85
+
+# familiar distances (km):
+close_bar: 2
+far_bar: 10
+
+# profit if the cultivation is failed
+fail_cost: 0
+
+
+
+##################################### other parameters for running the file (specific for this case study) ############################
+# parameters to estimate the stochastic yield
+y_a: 24.9
+y_b: 1.79
+y_c: 0.48
+y_d: 0.05
+
+y_average: 13
+
+# parameters to estimate the yearly revenue provided by (Bourgeois et al. 2014; Ben Fradj et al. 2016; Ben Fradj and Jayet 2018)
+energy_use_ids: [3, 4]
+c0: 3743     # initial establishment cost €/(ha,a)
+ca: [807, 624] # annual cost from the second year to one-year before the end €/(ha,a), 3-biogas, 4-combustion
+cf: [812, 566]       # final cost for the last year removal €/(ha,a), 3-biogas, 4-combustion
+pt: [118, 95]        # basic dry matter price in each year €/t, the low price as assuming high yield low price, 3-biogas, 4-combustion
+theta: 0.05  # discount rate
+alpha: 0.015 # inflation rate
+
+# boolean of whether to base switching parameters on farmer attributes or not
+attr: True # default
+
+# scale of grid in meters
+scale: 100
+
+# Number of points to generate in the CDF
+n: 100
+
+# Set seed for test data
+# Seed for random number generator
+crop_seed_size: 5
+
+# initialization year
+initialization_yr: 2019
+
+
+# number of indicators:
+ni: 27
+
+# tlca boundary:
+boundary: 'tot' # in, tot
+
+# tlca energy product:
+product: ['biog', 'elec', 'heat', 'animal']
+# product: 'biogas_m3pha' # biogas_m3pha, electricity_kwhpha, heat_mjpha
+
+
+farm_size: 1
+
+
+# these parameters are used to create the location for demonstration area
+n_regions_row: 2 # default is 2 regions on the horizontal
+n_regions_col: 2 # default is 1 regions on the verticle
+
+batch_length: 10 # devide the region into batches with length of how much unit
+batch_width: 6 # devide the region into batches with width of how much unit
+n_random_blocks: 2 # random select how many blocks for demonstration area
+n_random_cells: 10 # random select how many cells within one block for demonstration area
+
+regions: [[0, 0], [1, 1]] # default is 2 regions on the horizontal
+
+f_init_lc_file: '/Users/tianran/Desktop/dtlca/data/lc_fac_merged.tiff' 
+f_yd_file: '/Users/tianran/Desktop/dtlca/data/MiscanthusYield.tiff' # to generate landscape domain
+
+
+f_key_file: '/Users/tianran/Desktop/dtlca/data/crop_categories.csv' 
+
+# profits file
+f_profits_file: '/Users/tianran/Desktop/dtlca/data/revenue_s1.csv'
+
+# indicator method:
+f_dcf_file: '/Users/tianran/Desktop/dtlca/data/Brightway_IW_damage_1_41.bw2package'
+
+# output directory change to S1 or S2
+output_directory: '/Users/tianran/Desktop/dtlca/Out/S1'
+
+# file path of fadn, which is used to calculate the revenue for animal land use
+f_fadn_file: '/Users/tianran/Desktop/dtlca/data/YEAR.COUNTRY.REGION.SIZ6.TF8.csv'
+
+# individual spatialized lca score folder
+f_lca: '/Users/tianran/Desktop/dtlca/data/LCA'
+
+f_metadata: '/Users/tianran/Desktop/dtlca/data/metadata.txt'
+

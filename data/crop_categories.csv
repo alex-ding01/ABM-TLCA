@@ -1,0 +1,77 @@
+GROUPE_CUL,CULT_NOM,GROUPE_CUL_E,GROUPE_COD,CULT_NOM_E,CULT_COD,LABEL
+Production fourragère,Prairie et fourrage,forage production grassland,1,grassland and fourage,6,forage
+Production fourragère,Fèves et Féveroles de printemps,forage production annual crop,2,beans and spring beans,522,forage
+Production fourragère,Carotte,forage production annual crop,2,carrot,7433,forage
+Production fourragère,Trèfles,forage production annual crop,2,clovers,72,forage
+Production fourragère,Betterave fourragère,forage production annual crop,2,fodder beet,71,forage
+Production fourragère,Luzerne,forage production annual crop,2,luzern,73,forage
+Production fourragère,Autres fourrages,forage production annual crop,2,other forage,743,forage
+Production fourragère,Autres protéagineux,forage production annual crop,2,other protein,55,forage
+Production fourragère,Pois protéagineux,forage production annual crop,2,protein peas,51,forage
+Production fourragère,Pois protéagineux de printemps,forage production annual crop,2,spring peas,512,forage
+Production fourragère,Mélange protéagineux de printemps + céréales ou autres espèces,forage production annual crop,2,sprint protain mix,542,forage
+Production fourragère,Lupin doux,forage production annual crop,2,sweet lupine,53,forage
+Production fourragère,Fèves et Féveroles d'hiver,forage production annual crop,2,winter beans and faba beans,521,forage
+Production fourragère,Pois protéagineux dhiver,forage production annual crop,2,winter peas,511,forage
+Production fourragère,Mélange protéagineux d'hiver + céréales ou autres espèces,forage production annual crop,2,winter protein crop mixture + cereals or other species,541,forage
+Céréales et assimilés,Maïs ensilage,forage production annual crop,2,maize silage,201,forage
+Céréales et assimilés,Orge de brasserie,cereals,0,brewery barley,323,non-forage
+Céréales et assimilés,Sarrasin,cereals,0,buckwheat,37,non-forage
+Céréales et assimilés,Céréales ET légumineuses,cereals,0,cereals and legumes,39,non-forage
+Céréales et assimilés,Maïs grain,cereals,0,maize grain,202,non-forage
+Céréales et assimilés,Quinoa,cereals,0,quinoa,382,non-forage
+Céréales et assimilés,Seigle dhiver,cereals,0,rye,331,non-forage
+Céréales et assimilés,Sorgho,cereals,0,sorghum,381,non-forage
+Céréales et assimilés,Epeautre,cereals,0,spelt,36,non-forage
+Céréales et assimilés,Orge de printemps,cereals,0,spring barley,322,non-forage
+Céréales et assimilés,Avoine de printemps,cereals,0,spring oats,342,non-forage
+Céréales et assimilés,Seigle de printemps,cereals,0,spring rye,332,non-forage
+Céréales et assimilés,Triticale de printemps,cereals,0,spring triticale,352,non-forage
+Céréales et assimilés,Froment de printemps,cereals,0,spring wheat,312,non-forage
+Céréales et assimilés,Orge dhiver,cereals,0,winter barley,321,non-forage
+Céréales et assimilés,Avoine d'hiver,cereals,0,winter oats,341,non-forage
+Céréales et assimilés,Triticale d'hiver,cereals,0,winter triticale,351,non-forage
+Céréales et assimilés,Froment dhiver,cereals,0,winter wheat,311,non-forage
+Pommes de terre,Pomme de terre (non hâtives),potatoes,0,potato,901,non-forage
+Pommes de terre,Pomme de terre (plants),potatoes,0,potato (plants),902,non-forage
+Pommes de terre,"Pomme de terre (primeur, arrachage avant le 20 juin)",potatoes,0,potato (take before june),905,non-forage
+Pommes de terre,Pomme de terre (arrachage avant le 1er août),potatoes,0,potato (take year before),904,non-forage
+Pommes de terre,Pomme de terre féculière,potatoes,0,starch potato,903,non-forage
+Plantes à fibres,Lin textile,fiber plants,0,fiber,921,non-forage
+Plantes à fibres,Chanvre non textile (culture soumise à autorisation préalable au semis),fiber plants,0,Non-textile hemp,872,non-forage
+Plantes à fibres,Chanvre textile,fiber plants,0,textile hemp,922,non-forage
+Oléagineux,Lin oléagineux,oilseeds,0,oilseed flax,45,non-forage
+Oléagineux,Autres oléagineux,oilseeds,0,other oilseeds,46,non-forage
+Oléagineux,Soja,oilseeds,0,soya,43,non-forage
+Oléagineux,Colza de printemps,oilseeds,0,spring rapeseed,4121,non-forage
+Oléagineux,Tournesol,oilseeds,0,sun flower,42,non-forage
+Oléagineux,Colza dhiver,oilseeds,0,winter rapeseed,4111,non-forage
+Oléagineux,Navette dhiver (graines),oilseeds,0,winter turnip (seeds),4112,non-forage
+Cultures horticoles,Cultures fruitières annuelles - Fraises,horticultural crops,0,annual Fruit Crops - Strawberries,9516,non-forage
+Cultures horticoles,Plantes aromatiques,horticultural crops,0,aromatic plants,953,non-forage
+Cultures horticoles,Choux - Légumes,horticultural crops,0,cabbage legumes,9548,non-forage
+Cultures horticoles,Haricots de conserverie,horticultural crops,0,canning beans,9410,non-forage
+Cultures horticoles,Cultures horticoles non-comestibles,horticultural crops,0,cultures horticoles non comestibles,96,non-forage
+Cultures horticoles,Endives (chicons),horticultural crops,0,endives (chicory),9515,non-forage
+Cultures horticoles,"Pois récoltés à l'état frais, pois de conserverie",horticultural crops,0,"Freshly harvested peas, canning peas",931,non-forage
+Cultures horticoles,Pépinières de plants fruitiers ou de plantes ornementales,horticultural crops,0,fruit or ornamental plants,9520,non-forage
+Cultures horticoles,Légume légumineuse,horticultural crops,0,leguminous vegetable,966,non-forage
+Cultures horticoles,Cultures maraîchères sous verre,horticultural crops,0,market gardening under glass,952,non-forage
+Cultures horticoles,Plantes médicinales,horticultural crops,0,medical plants,957,non-forage
+Cultures horticoles,Cultures fruitière pluriannuelles-basses tiges,horticultural crops,0,multi-annual low-stemmed fruit crops,9741,non-forage
+Cultures horticoles,Autres légumes,horticultural crops,0,other legumes,951,non-forage
+Fruits à coque,Noisetier,nuts,0,hazelnut,9201,non-forage
+Autres utilisations,Boisement de terre agricole (art 31 du R.(CE) 1257/1999)  dérogation,other utilization,0,afforestation of agricultural land,895,non-forage
+Autres utilisations,Angélique,other utilization,0,angelique,881,non-forage
+Autres utilisations,Chicorée à inuline,other utilization,0,chicory with inulin,9811,non-forage
+Autres utilisations,Sapins de Noël,other utilization,0,christmas trees,962,non-forage
+Autres utilisations,Chicorée à café,other utilization,0,coffee chicory,9812,non-forage
+Autres utilisations,Couvert favorisant la faune,other utilization,0,cover for wildlife,851,non-forage
+Autres utilisations,Jachère,other utilization,0,fallow land,80,non-forage
+Autres utilisations,Miscanthus,miscanthus,4,miscanthus,884,energy-crop
+Autres utilisations,Couvert naturel/spontané,other utilization,0,natural cover,81,non-forage
+Autres utilisations,Ortie,other utilization,0,nettle,7431,non-forage
+Autres utilisations,Autres,other utilization,0,other,99,non-forage
+Autres utilisations,Autres couverts semés,other utilization,0,other sown cover crops,85,non-forage
+Autres utilisations,Betterave sucrière,other utilization,0,sugar beet,91,non-forage
+Autres utilisations,Tabac,other utilization,0,tobacco,9821,non-forage
